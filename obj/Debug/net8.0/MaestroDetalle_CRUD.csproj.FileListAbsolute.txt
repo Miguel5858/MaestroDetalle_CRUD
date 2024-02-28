@@ -28,3 +28,4 @@ D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\refint\MaestroDeta
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.pdb
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.genruntimeconfig.cache
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\ref\MaestroDetalle_CRUD.dll
+d:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.sourcelink.json
