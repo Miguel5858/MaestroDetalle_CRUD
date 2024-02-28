@@ -19,6 +19,9 @@ namespace MaestroDetalle_CRUD.Models
         [Required]
         public int PedidoId { get; set; }
         public Pedido Pedido { get; set; } = null!;
+        [Required]
+        public int ProductoId { get; set; }
+        public Producto Producto { get; set; } = null!;
         
     }
 }
