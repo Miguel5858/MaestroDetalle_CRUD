@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "euYmQfVveZl5T/QKt52mY6IjZ3Ajc90317ptEr00u6XcmRa4xjKIKU8uEb3CbM1Kkr+SLhA2phVLDxwfi0BX6g==",
+  "dgSpecHash": "iwoZViasegs7EIb5oMANhoEbhIKocovDVeJlu35zvEvTNBFvLUkw5Kpv7nCSbVUso5LbwW7qTFFvBR7jjvZagg==",
   "success": true,
   "projectFilePath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
   "expectedPackageFiles": [
@@ -82,6 +82,7 @@
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.2\\microsoft.entityframeworkcore.design.8.0.2.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.2\\microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.2\\microsoft.entityframeworkcore.sqlserver.8.0.2.nupkg.sha512",
+    "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.2\\microsoft.entityframeworkcore.tools.8.0.2.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
