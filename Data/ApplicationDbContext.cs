@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MaestroDetalle_CRUD.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext:DataContext
     {
         
     }
