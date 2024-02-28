@@ -15,6 +15,9 @@ namespace MaestroDetalle_CRUD.Data
         }
 
         public DbSet<Cliente> Clientes { get; set; } = null!;
+        public DbSet<Producto> Productos { get; set; } = null!;
+        public DbSet<Pedido> Pedidos { get; set; } = null!;
+        public DbSet<PedidoDetalle> PedidoDetalles { get; set; } = null!;
         
     }
 }
