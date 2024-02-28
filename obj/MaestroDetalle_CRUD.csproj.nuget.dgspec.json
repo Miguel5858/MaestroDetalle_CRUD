@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
+    "d:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
   },
   "projects": {
-    "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
+    "d:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectUniqueName": "d:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "projectName": "MaestroDetalle_CRUD",
-        "projectPath": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
-        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
+        "projectPath": "d:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "packagesPath": "C:\\Users\\TRABAJO\\.nuget\\packages\\",
+        "outputPath": "d:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\TRABAJO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

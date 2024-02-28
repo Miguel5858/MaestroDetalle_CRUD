@@ -29,3 +29,34 @@ D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRU
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.genruntimeconfig.cache
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\ref\MaestroDetalle_CRUD.dll
 d:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.sourcelink.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\appsettings.Development.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\appsettings.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.staticwebassets.runtime.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.exe
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.deps.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.runtimeconfig.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.dll
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\MaestroDetalle_CRUD.pdb
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.AssemblyInfoInputs.cache
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.AssemblyInfo.cs
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.csproj.CoreCompileInputs.cache
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.MvcApplicationPartsAssemblyInfo.cache
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.RazorAssemblyInfo.cache
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.RazorAssemblyInfo.cs
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.sourcelink.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets.build.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets.development.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.MaestroDetalle_CRUD.Microsoft.AspNetCore.StaticWebAssets.props
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.build.MaestroDetalle_CRUD.props
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MaestroDetalle_CRUD.props
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MaestroDetalle_CRUD.props
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\staticwebassets.pack.json
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\scopedcss\bundle\MaestroDetalle_CRUD.styles.css
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\scopedcss\projectbundle\MaestroDetalle_CRUD.bundle.scp.css
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.dll
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\refint\MaestroDetalle_CRUD.dll
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.pdb
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.genruntimeconfig.cache
+d:\MIGUEL 2022\CLIENTES FRECUENTES\CLIENTES DE MIGUEL\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\ref\MaestroDetalle_CRUD.dll
