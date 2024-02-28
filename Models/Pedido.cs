@@ -11,9 +11,9 @@ namespace MaestroDetalle_CRUD.Models
         public DateTime Fecha { get; set; }
         public int ClienteId { get; set; }
 
-        public Cliente Cliente { get; set; }
+        public Cliente Cliente { get; set; }=null!;
 
-        public List<PedidoDetalle> Detalle { get; set; }
+        public List<PedidoDetalle> Detalle { get; set; }=null!;
         
     }
 }
