@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MaestroDetalle_CRUD.props" />
+</Project>
