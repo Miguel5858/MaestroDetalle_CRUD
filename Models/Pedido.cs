@@ -17,7 +17,7 @@ namespace MaestroDetalle_CRUD.Models
 
         public Cliente Cliente { get; set; }=null!;
 
-        public List<PedidoDetalle> Detalle { get; set; }=null!;
+        public List<PedidoDetalle> Detalles { get; set; }=null!;
         
     }
 }
