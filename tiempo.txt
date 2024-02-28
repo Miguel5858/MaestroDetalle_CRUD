@@ -1,3 +1,9 @@
-6:45 / 2:15:32
+18:42 / 2:15:32
 
 https://www.youtube.com/watch?v=RU3rhvhS6fE
+
+
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+*corregi instalando esto*
+
+Ni valía crear Controller Cliente y vistas
