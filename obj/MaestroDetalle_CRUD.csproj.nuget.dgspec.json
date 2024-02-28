@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
+    "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
   },
   "projects": {
-    "D:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
+    "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectUniqueName": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "projectName": "MaestroDetalle_CRUD",
-        "projectPath": "D:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectPath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "packagesPath": "C:\\Users\\TRABAJO\\.nuget\\packages\\",
-        "outputPath": "D:\\MIGUEL 2022\\CLIENTES FRECUENTES\\CLIENTES DE MIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
+        "outputPath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TRABAJO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -54,7 +54,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
