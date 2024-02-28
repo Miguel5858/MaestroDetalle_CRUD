@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iwoZViasegs7EIb5oMANhoEbhIKocovDVeJlu35zvEvTNBFvLUkw5Kpv7nCSbVUso5LbwW7qTFFvBR7jjvZagg==",
+  "dgSpecHash": "y43QgNpVLSVkR5PsicoCsyr9FjV3o5AC3q7D/sG7sDGVJ7ysnc766K6YDOF3HXCnh5Z03sLV8z0G7dT5F9JUNA==",
   "success": true,
-  "projectFilePath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+  "projectFilePath": "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TRABAJO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\TRABAJO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

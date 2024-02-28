@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
+    "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
   },
   "projects": {
-    "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
+    "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectUniqueName": "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "projectName": "MaestroDetalle_CRUD",
-        "projectPath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectPath": "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "packagesPath": "C:\\Users\\TRABAJO\\.nuget\\packages\\",
-        "outputPath": "D:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
+        "outputPath": "d:\\MIGUEL2022\\CLIENTESFRECUENTES\\CLIENTESDEMIGUEL\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TRABAJO\\AppData\\Roaming\\NuGet\\NuGet.Config"
