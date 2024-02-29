@@ -71,6 +71,11 @@ namespace MaestroDetalle_CRUD.Controllers
             .Include(p=>p.Cliente)
             .FirstOrDefaultAsync(p=>p.PedidoId == id);
 
+            if(pedido == null)
+            {
+                return NotFound();
+            }
+            return View(pedido);
 
         }
   
