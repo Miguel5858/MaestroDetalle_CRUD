@@ -78,6 +78,12 @@ namespace MaestroDetalle_CRUD.Controllers
             return View(pedido);
 
         }
+
+        public async Task<IActionResult> Edit (int id)
+        {
+         
+
+        }
   
   
     }
