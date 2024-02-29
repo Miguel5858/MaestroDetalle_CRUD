@@ -61,6 +61,18 @@ namespace MaestroDetalle_CRUD.Controllers
          await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
        }
+
+
+        public async Task<IActionResult> Details (int id)
+        {
+            var pedido = await _context.Pedidos
+            .Include(p=>p.Detalles)
+            .ThenInclude(d=>d.Producto)
+            .Include(p=>p.Cliente)
+            .FirstOrDefaultAsync(p=>p.PedidoId == id);
+
+
+        }
   
   
     }
