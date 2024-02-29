@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
+    "D:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {}
   },
   "projects": {
-    "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
+    "D:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectUniqueName": "D:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "projectName": "MaestroDetalle_CRUD",
-        "projectPath": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
+        "projectPath": "D:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\MaestroDetalle_CRUD.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "d:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
+        "outputPath": "D:\\PROGRAMACION\\PUNTONET\\MaestroDetalle_CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
