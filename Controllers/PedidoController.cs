@@ -57,8 +57,9 @@ namespace MaestroDetalle_CRUD.Controllers
             }
         }
         
-         
-        return View();
+         _context.Pedidos.Add(pedido);
+         await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
        }
   
   
