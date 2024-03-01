@@ -182,5 +182,19 @@ namespace MaestroDetalle_CRUD.Controllers
 
         }
 
+         public async Task<IActionResult> DeleteDetalle(int id) 
+        {
+            var detalle = _context.PedidoDetalles
+            .Include(d=> d.Producto)
+            .FirstOrDefaultAsync(d=> d.PedidoDetalleId == id);
+
+            if(detalle == null)
+            {
+                return NotFound();
+            }
+          
+            return View(detalle);
+        }
+
     }
 }
