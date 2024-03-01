@@ -112,6 +112,11 @@ namespace MaestroDetalle_CRUD.Controllers
          if(pedido == null)  
              return NotFound();
 
+             var detallesPedido = await _context.PedidoDetalles
+             .Include(d => d.Producto)
+             .Where(d => d.PedidoId == id)
+             .ToListAsync();
+
              ViewBag.Clientes = _context.Clientes.ToList();
              return View(pedido);
         }
