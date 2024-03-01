@@ -81,8 +81,25 @@ namespace MaestroDetalle_CRUD.Controllers
 
         public async Task<IActionResult> Edit (int id)
         {
-         
+         var pedido = await _context.Pedidos.FindAsync(id);
+         if(pedido == null)  
+             return NotFound();
 
+             ViewBag.Clientes = _context.Clientes.ToList();
+             return View(pedido);
+        }
+
+   [HttpPost]
+    [ValidateAntiForgeryToken]
+ public async Task<IActionResult> Edit (int id, Pedido pedido)
+        {
+
+         if(id!= pedido.PedidoId)  
+             return NotFound();
+
+             _context.Update(pedido);
+             await _context.SaveChangesAsync();
+             return RedirectToAction(nameof(Index));
         }
   
   
