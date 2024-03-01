@@ -184,7 +184,7 @@ namespace MaestroDetalle_CRUD.Controllers
 
          public async Task<IActionResult> DeleteDetalle(int id) 
         {
-            var detalle = _context.PedidoDetalles
+            var detalle = await _context.PedidoDetalles
             .Include(d=> d.Producto)
             .FirstOrDefaultAsync(d=> d.PedidoDetalleId == id);
 
