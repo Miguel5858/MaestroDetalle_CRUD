@@ -139,6 +139,24 @@ namespace MaestroDetalle_CRUD.Controllers
              return RedirectToAction(nameof(Index));
         }
 
+        public IActionResult EditDetalle(int id) 
+        {
+            var detalle = _context.PedidoDetalles.Find(id);
+            if(detalle == null)
+            {
+                return NotFound();
+            }
+
+            var producto = _context.Productos.FirstOrDefault(p=> p.ProductoId == detalle.ProductoId);
+            if(producto == null)
+            {
+                return NotFound();
+            }
+            ViewBag.ProductoPrecio=producto.Precio;
+            ViewBag.Productos=_context.Productos.ToList();
+            return View(detalle);
+        }
+
 
     }
 }
