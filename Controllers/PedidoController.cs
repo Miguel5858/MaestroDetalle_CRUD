@@ -157,6 +157,30 @@ namespace MaestroDetalle_CRUD.Controllers
             return View(detalle);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditDetalle(int id, PedidoDetalle detalle)
+        {
+            var existingDetalle = _context.PedidoDetalles
+            .Include(d => d.Pedido)
+            .FirstOrDefault(d => d.PedidoDetalleId == id);
+
+            if(existingDetalle == null)
+            {
+                return NotFound();
+            }
+
+            if(id!= detalle.PedidoDetalleId)
+            {
+                return NotFound();
+            }
+            existingDetalle.Cantidad = detalle.Cantidad;
+                _context.Update(existingDetalle);
+
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Details), new {id = existingDetalle.PedidoId});
+
+        }
 
     }
 }
