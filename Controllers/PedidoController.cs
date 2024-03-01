@@ -195,6 +195,19 @@ namespace MaestroDetalle_CRUD.Controllers
           
             return View(detalle);
         }
+        [HttpPost, ActionName("DeleteDetalle")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteDetalleConfirmed(int id)
+        {
+            var detall = await _context.PedidoDetalles.FindAsync(id);
+            if(detall == null)
+            {
+                return NotFound();
+            }
+            _context.PedidoDetalles.Remove(detall);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Details), new {id = detall.PedidoId});
+        }
 
     }
 }
