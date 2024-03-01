@@ -117,7 +117,7 @@ namespace MaestroDetalle_CRUD.Controllers
              .Where(d => d.PedidoId == id)
              .ToListAsync();
 
-             ViewBag.Clientes = _context.Clientes.ToList();
+             ViewBag.DetallesPedido = detallesPedido;
              return View(pedido);
         }
   
