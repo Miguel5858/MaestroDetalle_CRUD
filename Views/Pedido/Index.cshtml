@@ -20,17 +20,15 @@
                 @foreach (var pedido in Model)
                 {
                     <tr>
+                        <td>@pedido.Fecha.ToShortDateString()</td>
+                        <td>@pedido.Cliente.Nombre</td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Fecha)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Cliente.Nombre)
-                        </td>
-                        <td>
-                            <a asp-action="Details" asp-route-id="@item.PedidoId">Detalles</a> |
-                            <a asp-action="Delete" asp-route-id="@item.PedidoId">Eliminar</a>
+                            <a asp-action="Edit" asp-route-id="@pedido.PedidoId">Editar</a> |
+                            <a asp-action="Details" asp-route-id="@pedido.PedidoId">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@pedido.PedidoId">Eliminar</a>
                         </td>
                     </tr>
+             
                 }
 
 
