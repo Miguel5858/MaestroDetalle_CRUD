@@ -102,9 +102,13 @@ namespace MaestroDetalle_CRUD.Controllers
              return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Edit (int id)
+        public async Task<IActionResult> Delete (int id)
         {
-         var pedido = await _context.Pedidos.FindAsync(id);
+         var pedido = await _context.Pedidos
+         .Include(p => p.Cliente)
+         .FirstOrDefaultAsync(p => p.PedidoId == id);
+
+
          if(pedido == null)  
              return NotFound();
 
