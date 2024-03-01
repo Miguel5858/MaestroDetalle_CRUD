@@ -101,6 +101,16 @@ namespace MaestroDetalle_CRUD.Controllers
              await _context.SaveChangesAsync();
              return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> Edit (int id)
+        {
+         var pedido = await _context.Pedidos.FindAsync(id);
+         if(pedido == null)  
+             return NotFound();
+
+             ViewBag.Clientes = _context.Clientes.ToList();
+             return View(pedido);
+        }
   
   
     }
