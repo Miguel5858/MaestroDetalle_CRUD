@@ -9,9 +9,31 @@
         <h2>Pedidos</h2>
         <a href="" class="btn btn-primary mb-2">Crear Nuevo Pedido</a>
         <table class="table table-bordered">
-            <thead></thead>
+            <thead>
+                <tr>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Cliente</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
             <tbody>
-                
+                @foreach (var pedido in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fecha)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.PedidoId">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@item.PedidoId">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+
+
             </tbody>
         </table>
 
