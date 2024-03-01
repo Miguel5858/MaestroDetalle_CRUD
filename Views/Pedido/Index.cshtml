@@ -23,15 +23,15 @@
                         <td>@pedido.Fecha.ToShortDateString()</td>
                         <td>@pedido.Cliente.Nombre</td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@pedido.PedidoId">Editar</a> |
-                            <a asp-action="Details" asp-route-id="@pedido.PedidoId">Detalles</a> |
-                            <a asp-action="Delete" asp-route-id="@pedido.PedidoId">Eliminar</a>
+                            <div class="btn-group">
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@pedido.PedidoId">Editar</a> |
+                            <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@pedido.PedidoId">Detalles</a> |
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@pedido.PedidoId">Eliminar</a>
+                            </div>
                         </td>
                     </tr>
              
                 }
-
-
             </tbody>
         </table>
 
