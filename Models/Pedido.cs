@@ -9,6 +9,10 @@ namespace MaestroDetalle_CRUD.Models
 {
     public class Pedido
     {
+        public Pedido()
+        {
+            Detalles = new List<PedidoDetalle>();
+        }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int PedidoId { get; set; }
