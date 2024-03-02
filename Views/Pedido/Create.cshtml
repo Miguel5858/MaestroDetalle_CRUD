@@ -30,6 +30,18 @@
                         <th>Precio</th>
                     </tr>
                 </thead>
+                <tbody>
+                    @for (var i=0; i <ViewBag.Productos.Count; i++)
+                    {
+                        var producto = ViewBag.Productos[i];
+                        <tr>
+                            <td>@producto.Nombre</td>
+                            <td><input type="number" name="cantidades[@i]" class="form-control"></td>
+                            <td><input disabled name="precios[@i]" value="@producto.Precio" class="form-control"></td>
+                            <td><input type="hidden" name="productoIds[@i]" value="@producto.ProductoId" class="form-control"></td>
+                        </tr>
+                    }
+                </tbody>
 
             </table>
         </div>
