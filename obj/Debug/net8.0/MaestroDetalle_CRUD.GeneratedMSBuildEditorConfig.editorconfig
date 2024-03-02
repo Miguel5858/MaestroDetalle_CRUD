@@ -66,8 +66,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PROGRAMACION/PUNTONET/MaestroDetalle_CRUD/Views/Pedido/DeleteDetalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERlbGV0ZURldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PROGRAMACION/PUNTONET/MaestroDetalle_CRUD/Views/Pedido/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMACION/PUNTONET/MaestroDetalle_CRUD/Views/Pedido/EditDetalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVkaXREZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PROGRAMACION/PUNTONET/MaestroDetalle_CRUD/Views/Pedido/Index.cshtml]
