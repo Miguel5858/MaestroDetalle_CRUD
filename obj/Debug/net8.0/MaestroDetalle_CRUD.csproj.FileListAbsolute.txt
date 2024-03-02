@@ -534,4 +534,4 @@ D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\runtimes\win\lib\n
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.csproj.AssemblyReference.cache
-D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroDetalle_CRUD.csproj.CopyComplete
+D:\PROGRAMACION\PUNTONET\MaestroDetalle_CRUD\obj\Debug\net8.0\MaestroD.3511FDA0.Up2Date
