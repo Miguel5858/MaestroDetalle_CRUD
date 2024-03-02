@@ -36,31 +36,50 @@ namespace MaestroDetalle_CRUD.Controllers
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(Pedido pedido, int[] poductoIds, int[] cantidades)
-        {
-            var cli = await _context.Clientes.FirstOrDefaultAsync(m => m.ClienteId == pedido.ClienteId);
-            if (cli != null)
-                pedido.Cliente = cli;
-            foreach (var item in poductoIds)
-            {
-                var producto = await _context.Productos.FindAsync(item);
-                if (producto != null)
-                {
-                    pedido.Detalles.Add(new PedidoDetalle
-                    {
-                        ProductoId = item,
-                        Cantidad = cantidades[Array.IndexOf(poductoIds, item)],
-                        Producto = producto
-                    });
-                }
-            }
+    [HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<ActionResult> Create(Pedido pedido, int[] productoIds, int[] cantidades)
+{
+    // Obtener el cliente asociado al pedido
+    var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.ClienteId == pedido.ClienteId);
+    if (cliente != null)
+    {
+        pedido.Cliente = cliente;
+    }
 
-            _context.Pedidos.Add(pedido);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+    // Inicializar la lista de detalles del pedido si es nula
+    pedido.Detalles ??= new List<PedidoDetalle>();
+
+    // Agregar detalles al pedido basados en los productos y cantidades proporcionados
+    for (int i = 0; i < productoIds.Length; i++)
+    {
+        var productoId = productoIds[i];
+        var cantidad = cantidades[i];
+
+        // Buscar el producto en la base de datos
+        var producto = await _context.Productos.FindAsync(productoId);
+        if (producto != null)
+        {
+            // Agregar un nuevo detalle al pedido
+            var detalle = new PedidoDetalle
+            {
+                ProductoId = productoId,
+                Cantidad = cantidad,
+                Producto = producto
+            };
+
+            // Agregar el detalle al pedido
+            pedido.Detalles.Add(detalle);
         }
+    }
+
+    // Agregar el pedido al contexto y guardar los cambios
+    _context.Pedidos.Add(pedido);
+    await _context.SaveChangesAsync();
+
+    return RedirectToAction(nameof(Index));
+}
+
 
 
         public async Task<IActionResult> Details(int id)
