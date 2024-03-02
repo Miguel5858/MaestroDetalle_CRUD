@@ -1,4 +1,3 @@
-
 @{
     ViewData["Title"] = "Create";
 }
@@ -10,22 +9,32 @@
         <div class="form-group">
             <label asp-for="Fecha">Fecha</label>
             <input asp-for="Fecha" class="form-control" type="date" />
-            <span asp-validation-for="Fecha" class="text-danger"></span>            
+            <span asp-validation-for="Fecha" class="text-danger"></span>
         </div>
-         <div class="form-group">
+        <div class="form-group">
             <label asp-for="ClienteId">Cliente</label>
             <select asp-for="ClienteId" class="form-control" asp-items="new SelectList(ViewBag.Clientes, nameof(Cliente.
             ClienteId), nameof(Cliente.Nombre))">
-            <option value="">Seleccione un Cliente...</option>
+                <option value="">Seleccione un Cliente...</option>
             </select>
-            <span asp-validation-for="ClienteId" class="text-danger"></span>            
+            <span asp-validation-for="ClienteId" class="text-danger"></span>
         </div>
 
-         <div class="form-group">
-            <label>Detalles del pedido</label>          
+        <div class="form-group">
+            <label>Detalles del pedido</label>
+            <table>
+                <thead class="table table-bordered" id="detalleTable">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+
+            </table>
         </div>
 
-        
+
     </form>
 
 </div>
