@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaestroDetalle_CRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3139842d7a919b0b4df90eff9fdea701102f0e83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b699c821aba76304789636ea4d84cca2984046d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaestroDetalle_CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaestroDetalle_CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
